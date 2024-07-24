@@ -126,7 +126,7 @@ async def removeTimeZone(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 if __name__ == '__main__':
     
-    application = ApplicationBuilder().token('6711537357:AAEKVTtG0FOuABQnsgkKYJQ5Xlx3fUZ7OHw').build()
+    application = ApplicationBuilder().token('YOUR TOKEN HERE').build()
     
     starthandler = CommandHandler('start', start)
     caps_handler = CommandHandler('caps', caps)
